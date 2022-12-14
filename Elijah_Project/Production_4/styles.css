@@ -142,6 +142,47 @@ figure {
    float: right;
 }
 
+ /*main content tables*/
+table{
+   width: 90%;
+   margin: 0 auto;
+   border-collapse: collapse;
+}
+th, td{
+   border: 1px solid black;
+   padding: 0.5em;
+}
+th{
+   background-color: #ddd;
+}
+.red-team-schedule{
+   border: 5px solid red;
+}
+.red-team-schedule th{
+   border-bottom: 5px solid red;
+}
+.blue-team-schedule{
+   border: 5px solid blue;
+}
+.blue-team-schedule th{
+   border-bottom: 5px solid blue;
+   color: blue;
+}
+.green-team-schedule{
+   border: 5px solid green;
+}
+.green-team-schedule th{
+   border-bottom: 5px solid green;
+   color: green;
+}
+.yellow-team-schedule{
+   border: 5px solid #e6da57;
+}
+.yellow-team-schedule th{
+   border-bottom: 5px solid #E6DA57;
+   color: yellow;
+}
+
 /* footer section */
 footer {
    padding: 0.5em;
