@@ -1,0 +1,179 @@
+/* 
+   Buissness project Lawn Mowing co. 
+   Filename: styles.css
+
+   Author:   Elijah Vientos 
+   Date:     11/2/22
+   HTML5 and CSS3 Illustrated Unit F, Lessons
+ */
+
+/* reset styles */
+html {
+   font-size: 12px;
+}
+a, article, body, div, footer, header, h1, h2, h3, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body */
+body {
+   max-width: 800px;
+   margin: 0 auto;
+   background-color: black;
+   font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.container {
+   background-color: black;
+   position: relative;
+}
+p {
+   font-size: 1.4em;
+   line-height: 1.6em;
+}
+a:link {
+	color: rgb(49, 134, 75);
+}
+a:visited {
+	color: ghostwhite;
+}
+a:active {
+       position: relative;
+       top: 1px;
+       left: 1px;
+}
+
+/* header section */
+h1 {
+   padding: 0.6em 0.4em 0.4em;
+   text-align: Left;
+   font-family:  "Times New Roman";
+   font-weight: 700;
+   color: rgb(49, 134, 75);
+   background-color: black;
+   font-size: 3.4em;
+}
+
+/* site navigation bar */
+nav.sitenavigation {
+/*   width: 19%;  */
+/*   padding: 3%;*/
+/*   float: left;      */
+   color: ghostwhite;
+   text-align: Left;
+}
+nav.sitenavigation p {
+	display: inline-block;
+	margin: 0.5em;
+}
+nav.sitenavigation a:link{
+	text-decoration: none;
+	color: rgb(49, 134, 75);
+}
+nav.sitnavagation a:visited {
+	color: rgb(49, 134, 75);
+}
+nav.sitnavagation a:hover, na.sitenavigation a:focus {
+	color: rgb(49, 134, 75);
+}
+nav.sitenavigation a:focus, nav.sitenavigation a:hover{
+	color: rgb(49, 134, 75);
+}
+/* main content */
+article {
+/*   width: 69%; */
+   padding: 0 3% 1em;
+   background-color: black;
+/*   float: right; */
+}
+h2 {
+   padding: 0.4em 0.4em 0;
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-size: 2.4em;
+   font-weight: 700;
+}
+h3 {
+   margin-top: 1.4em;
+   font-size: 1.8em;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-weight: 700;
+}
+h6 {
+  font-size: 0.90em;
+  color: rgb(49, 134, 75);
+}
+article p {
+   padding-top: 1em;
+}
+.title {
+   font-style: italic;
+}
+nav.pagenavigaion {
+	margin-top: 1em;
+	text-align: center;
+	color: rgb(49, 134, 75); 
+	background-color: black;
+}
+nav.pagenavigation p{
+	display: inline-block; 
+	margin: 0.5em;
+	padding: 0;
+}
+nav.pagenavigation a:link {
+	text-decoration: none;
+	color: rgb(49, 134, 75);
+}
+nav.pagenavigation a:visited {
+	color: rgb(49, 134, 75);
+}
+nav.pagenavigation a:hover, nav.pagenavigtion a:focus {
+	color: rgb(49, 134, 75);
+}
+
+/* footer section */
+footer {
+   padding: 0.4em;
+   background-color: black;
+   color: ghostwhite;
+   text-align: Right;
+/*   clear: both; */
+}
+footer p {
+   margin: 0.4em;
+}
+.accent {
+   font-weight: bold;
+}
+
+/* print styles */
+@media print {
+   body, h1, article, footer {
+      color: rgb(49, 134, 75);
+      background-color: rgb(255,255,255);
+   }
+   body {
+      max-width: 100%;
+      border: 0;
+   }
+   h1 {
+      font-size: 2.6em;
+      padding: 0;
+   }
+   h2 {
+      font-size: 2.2em;
+   }
+   article p {
+      margin: 0.4em 0 0;
+   }
+}
+@page {
+   margin: 0.75in;
+}
+/* picture */
+
+
+
+
+
